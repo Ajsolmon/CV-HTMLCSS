@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: whitesmoke;
+}
+
+main{
+    padding: 2rem 12rem;
+    display: flex;
+}
+
+.left-side{
+    width: 35%;
+    background: #0187DE;
+    color: white;
+    padding: 5%;
+    position: relative;
+}
+
+.left-side p{
+    position: absolute;
+    right: 1em;
+    bottom: 11%;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.right-side{
+    width: 65%;
+    padding: 1rem;
+    background: white;
+}
+
+h1{
+    font-size: 40px;
+    color: #0187DE;
+    margin-bottom: 10px;
+}
+
+h4{
+    color: #0187DE;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.contacts{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+.contact div{
+    width: 30px;
+    height: 30px;
+    margin-right: 3px;
+    background: #0187DE;
+    border-radius: 50%;
+}
+
+.icons{
+    display: grid;
+    place-items: center;
+    color: white;
+}
+
+.description{
+    margin-bottom: 1rem;
+}
+
+.skillset{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.skillset h4{
+    margin-bottom: 0;
+}
+
+.big-dot{
+    width: 30px;
+    height: 30px;
+    background: #0187DE;
+    border-radius: 50%;
+    margin-right: 10px;
+    position: relative;
+}
+
+.big-dot::after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 22px;
+    width: 0.1px;
+    background-color: #0187DE;
+}
+
+.small-dot{
+    width: 8px;
+    height: 8px;
+    background: #0187DE;
+    border-radius: 50%;
+    margin-left: 11.2px;
+    margin-right: 22.5px;
+    position: relative;
+}
+
+.small-dot::after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 26px;
+    width: 0.1px;
+    background-color: #0187DE;
+}
+
+
+.skillset-last{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.skillset-last div:first-child{
+    width: 8px;
+    height: 8px;
+    background: #0187DE;
+    border-radius: 50%;
+    margin-left: 11.2px;
+    margin-right: 22.5px;
+    position: relative;
+}
+
+.skillset-last div:last-child{
+    margin-top: -10px;
+}
+
+.skillset-last div:last-child p{
+    font-style: italic;
+}
+
+.skillset-last div:first-child::after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 60px;
+    width: 0.1px;
+    background-color: #0187DE;
+}
+li{
+}
+
+ul{
+
+    outline: thin solid black;
+}
