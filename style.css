@@ -6,8 +6,19 @@
 
 }
 
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
 body{
-    background: whitesmoke;
+    background: rgba(104, 161, 230, 0.3);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.0px );
+    -webkit-backdrop-filter: blur( 7.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 main{
@@ -35,12 +46,17 @@ main{
     width: 65%;
     padding: 1rem;
     background: white;
+    background-image: url(zuri.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: top 0% right 5%;
 }
 
 h1{
     font-size: 40px;
     color: #0187DE;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 h4{
@@ -51,7 +67,7 @@ h4{
 
 .contacts{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
 }
 
 .contact{
