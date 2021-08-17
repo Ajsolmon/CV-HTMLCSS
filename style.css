@@ -42,6 +42,15 @@ main{
     font-size: 1.2em;
 }
 
+.left-side a{
+    position: absolute;
+    color: white;
+    right: 1em;
+    top: 10%;
+    font-size: 1em;
+    font-style: italic;
+}
+
 .right-side{
     width: 65%;
     padding: 1rem;
@@ -179,6 +188,7 @@ h4{
     width: 0.1px;
     background-color: #0187DE;
 }
+
 li{
 }
 
